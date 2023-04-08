@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<StackPane fx:id="stackPane" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" style="-fx-background-color: transparent;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.WelcomeController">
+   <children>
+      <AnchorPane fx:id="anchWelcome" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="400.0" style="-fx-background-color: #1A2840; -fx-background-radius: 10;">
+         <children>
+            <Pane fx:id="paneLogo" layoutX="1.0" layoutY="153.0" prefHeight="92.0" prefWidth="400.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+               <children>
+                  <ImageView fx:id="imgP1" fitHeight="77.0" fitWidth="70.0" layoutX="47.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fx:id="imgP2" fitHeight="77.0" fitWidth="70.0" layoutX="118.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fx:id="imgP3" fitHeight="77.0" fitWidth="70.0" layoutX="198.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fx:id="imgP4" fitHeight="77.0" fitWidth="70.0" layoutX="269.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true" />
+               </children>
+            </Pane>
+            <Pane fx:id="paneWelcomeCover2" layoutY="153.0" prefHeight="90.0" prefWidth="400.0" style="-fx-background-color: #1A2840;" />
+            <Pane fx:id="paneTo" layoutX="175.0" layoutY="101.0">
+               <children>
+                  <Label fx:id="lblTo" text="TO" textFill="#e1e1e1">
+                     <font>
+                        <Font name="Impact" size="50.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane fx:id="paneToCover" layoutY="103.0" prefHeight="50.0" prefWidth="400.0" style="-fx-background-color: #1A2840;" />
+            <Pane fx:id="paneWelcome" layoutX="104.0" layoutY="51.0">
+               <children>
+                  <Label fx:id="lblWelcome" text="WELCOME" textFill="#e1e1e1">
+                     <font>
+                        <Font name="Impact" size="50.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane fx:id="paneWelcomeCover" layoutY="53.0" prefHeight="50.0" prefWidth="400.0" style="-fx-background-color: #1A2840;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+            <Group fx:id="animationGroup" layoutX="150.0" layoutY="400.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>

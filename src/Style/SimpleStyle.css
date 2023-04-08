@@ -1,0 +1,50 @@
+.numberButton
+{
+    -fx-background-color: #131E32;
+    -fx-background-radius: 25;
+}
+
+.numberButton:hover
+{
+    -fx-background-color: #070c12;
+}
+
+.operatorButton
+{
+    -fx-background-color: #F9759B;
+    -fx-background-radius: 25;
+}
+
+.operatorButton:hover
+{
+    -fx-background-color: #f85482;
+}
+
+.equalButton
+{
+    -fx-background-color: #FEA41A;
+    -fx-background-radius: 25;
+}
+
+.dropdown
+{
+    -fx-background-color: #e04d05;
+    -fx-background-radius: 0 30 30 0;
+}
+
+.vbox
+{
+    -fx-background-color: #e04d05;
+    -fx-background-radius: 0 0 30 30;
+}
+
+
+
+
+
+
+
+
+
+
+
